@@ -1,0 +1,114 @@
+.bigbox{
+    height: 100vh;
+    width: 100vw;
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+   
+}
+.leftsidebox span{
+    font-weight: bold;
+    word-spacing: 10px;
+   
+
+}
+.leftsidebox{
+    margin-top: 2%;
+     margin-left: 1%;  
+    border-radius: 8px;
+    height: 90vh;
+    width: 20%;  
+     /* border: 2px solid gray;    */
+}
+.content{
+    height: 90%;
+    width: 70%;
+    /* border: 2px solid black; */
+    overflow: scroll;
+
+}
+.rightsidebox{
+    height: 600px;
+    width: 20%;
+    
+    
+
+}
+
+.content h1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+hr{
+    color: lightgray;
+}
+.content span{
+    word-spacing: 7px;
+}
+.content span:hover{
+    text-decoration: underline;
+    color: rgb(49, 176, 14);
+}
+ .content span2{
+    word-spacing: 8px;
+    margin-left: 400px;
+
+}
+.content span2:hover{
+    color: blue;
+
+}
+
+    
+
+.E h2:hover{
+    
+    cursor: pointer;
+    color: blue;
+}
+.E h2{
+    text-decoration: underline;
+}
+
+
+.pic_one{
+    height:800px;
+    width:400px;
+    background-image:url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/06/2-14.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    float:right;
+    border-radius: 50%;
+
+}
+.pic_2{
+height:500px;
+    width:600px;
+    background-image:url(https://t4.ftcdn.net/jpg/08/89/00/87/360_F_889008734_Jt9O8zCFJMmKaQIJx2l1oXIXDgwzxwvp.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    float:right;
+    border-radius: 20%;
+    animation: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation: forwards;
+}
+.rightsidebox span{
+    word-spacing: 10px;
+    padding-left: 30px;
+
+}
+.pic_3{
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    border-radius: 30px;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yX3Bob3RvX29mX2FfbGlvbl9pc29sYXRlZF9vbl9jb2xvcl9iYWNrZ3JvdW5kXzJhNzgwMjM1LWRlYTgtNDMyOS04OWVjLTY3ZWMwNjcxZDhiMV8xLmpwZw.jpg);
+}

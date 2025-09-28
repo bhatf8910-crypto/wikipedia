@@ -1,0 +1,57 @@
+.head{
+     border: 2px solid black;  
+    height: 60px;
+    width: 98vw;
+    display: flex;
+    gap: 2%;
+    /* border-radius: 30px; */
+    /* position: sticky; */
+    
+
+}
+.image{
+    height: 60px;
+    width: 100px;
+    background-image: url(https://pngimg.com/d/wikipedia_PNG31.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search{
+    margin-top: 2%;
+    gap: 0%;
+
+}
+.side{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 600px;
+    word-spacing: 6px;
+    color: blue;
+    margin-top: 2%;
+
+}
+.side:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+.subhead{
+    border: 2px solid rgb(209, 233, 234);
+    height: 70px;
+    width:95vw;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+  
+}
+.logo{
+    height: 60px;
+    width: 80px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wiki_Loves_Monuments_Logo_notext.svg/70px-Wiki_Loves_Monuments_Logo_notext.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+p b{
+    text-decoration: underline;
+}
